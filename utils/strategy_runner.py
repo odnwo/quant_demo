@@ -1,8 +1,8 @@
 # utils/strategy_runner.py
 
 import pandas as pd
-from backtest import simple_backtest
-from evaluate import evaluate_strategy
+from utils.backtest import simple_backtest
+from utils.evaluate import evaluate_strategy
 import os
 
 def run_strategy_pipeline(
